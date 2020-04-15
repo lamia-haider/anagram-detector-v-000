@@ -8,7 +8,7 @@ class Anagram
 
   def match(arr)
     arr.select do |wor|
-      wor.char.sort.join == @word.char.sort.join
+      wor.chars.sort.join == @word.chars.sort.join
     end
   end
 
